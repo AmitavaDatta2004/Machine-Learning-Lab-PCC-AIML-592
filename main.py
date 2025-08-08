@@ -58,6 +58,20 @@ def add_section_divider(title, subtitle=None):
 # Ultra-Detailed Slides with more info, visuals, and dividers
 slides_content = [
     ("Section Divider", ["Section: Fundamentals of Industrial Management"]),
+    ("What is Industrial Management?", [
+        "Definition: Industrial Management is the branch of management concerned with the operation and optimization of industrial processes, integrating engineering, technology, and human resources.",
+        "It involves planning, organizing, directing, and controlling industrial activities to achieve organizational objectives efficiently and effectively.",
+        "Scope: Covers production, quality, maintenance, supply chain, safety, and human resource management in industrial settings.",
+        "[Theory] Originated during the Industrial Revolution to address the complexities of mass production and labor organization.",
+        "[Visual Suggestion: Timeline of industrial management evolution]"
+    ]),
+    ("Importance of Management Systems", [
+        "A management system is a set of interrelated or interacting elements of an organization to establish policies, objectives, and processes to achieve those objectives.",
+        "Ensures consistency, compliance, and continual improvement in industrial operations.",
+        "Types: Quality Management System (QMS), Environmental Management System (EMS), Occupational Health & Safety Management System (OHSMS), etc.",
+        "[Definition] ISO defines a management system as 'the way in which an organization manages the interrelated parts of its business to achieve its objectives.'",
+        "[Visual Suggestion: Table of management system types and their standards]"
+    ]),
     ("Introduction", [
         "Industrial Management integrates engineering principles with management practices to optimize industrial operations.",
         "Key objectives include maximizing productivity, ensuring quality, minimizing costs, and maintaining safety.",
@@ -66,10 +80,17 @@ slides_content = [
         "Parameters and Variables are two fundamental concepts:",
         "- Parameters: Fixed, measurable limits or standards (e.g., machine capacity, safety norms).",
         "- Variables: Dynamic, changing factors (e.g., demand, workforce availability).",
-        "Mastering both enables managers to balance stability with adaptability, ensuring long-term success."
+        "Mastering both enables managers to balance stability with adaptability, ensuring long-term success.",
         "[Visual Suggestion: Insert a flowchart showing the relationship between the 5 M's and management outcomes]"
     ]),
     ("Section Divider", ["Section: Deep Dive into Parameters"]),
+    ("Definition and Theory of Parameters", [
+        "A parameter is a measurable factor that defines a system and sets the boundaries within which the system operates.",
+        "In management science, parameters are constants that provide structure and predictability to processes.",
+        "[Theory] Parameters are often derived from standards, regulations, or best practices and are essential for benchmarking and control.",
+        "Example: In a production line, the maximum speed of a conveyor belt is a parameter.",
+        "[Visual Suggestion: Diagram showing parameters as boundaries of a process]"
+    ]),
     ("Understanding Parameters", [
         "Definition: Parameters are the set, measurable, and relatively constant constraints that define the boundaries of industrial processes.",
         "Role: Serve as the foundation for planning, standardization, and regulatory compliance.",
@@ -86,10 +107,17 @@ slides_content = [
         "- Standard cycle time (e.g., 2 minutes per unit).",
         "- ISO 9001 quality thresholds.",
         "- Regulatory environmental emission limits.",
-        "- Minimum safety stock levels."
+        "- Minimum safety stock levels.",
         "[Visual Suggestion: Table comparing different types of parameters in various industries]"
     ]),
     ("Section Divider", ["Section: Deep Dive into Variables"]),
+    ("Definition and Theory of Variables", [
+        "A variable is a factor that can change or fluctuate, affecting the outcome of a process or system.",
+        "In management, variables introduce uncertainty and require adaptive strategies.",
+        "[Theory] Variables are monitored and controlled through feedback mechanisms and real-time data analysis.",
+        "Example: The daily demand for a product is a variable in production planning.",
+        "[Visual Suggestion: Graph showing variable fluctuations over time]"
+    ]),
     ("Understanding Variables", [
         "Definition: Variables are factors that fluctuate due to internal or external influences, impacting process outcomes and decision-making.",
         "Role: Introduce flexibility, allowing managers to adapt to real-time changes and uncertainties.",
@@ -105,7 +133,7 @@ slides_content = [
         "- Employee absenteeism or turnover.",
         "- Supply chain disruptions (e.g., delayed shipments).",
         "- Raw material price volatility.",
-        "- Adoption rate of new technologies."
+        "- Adoption rate of new technologies.",
         "[Visual Suggestion: Line graph showing variable trends over time]"
     ]),
     ("Section Divider", ["Section: Practical Applications"]),
@@ -127,7 +155,7 @@ slides_content = [
         "- Example: Compliance with minimum wage laws.",
         "Operational Timelines:",
         "- Predefined schedules for projects or production runs.",
-        "- Example: Delivery deadlines for customer orders."
+        "- Example: Delivery deadlines for customer orders.",
         "[Visual Suggestion: Infographic of key parameters with icons]"
     ]),
     ("Key Variables in Industrial Management", [
@@ -148,7 +176,7 @@ slides_content = [
         "- Example: Rising energy costs during global crises.",
         "Economic and Political Climate:",
         "- Tariffs, inflation, and policy changes influencing operations.",
-        "- Example: New import tariffs increasing raw material costs."
+        "- Example: New import tariffs increasing raw material costs.",
         "[Visual Suggestion: Pie chart of variable impact distribution]"
     ]),
     ("Relationship Between Parameters & Variables", [
@@ -157,7 +185,8 @@ slides_content = [
         "Case Example:",
         "- A factory with a fixed 500-unit daily capacity (parameter) must adjust production schedules based on fluctuating demand (variable) to avoid overproduction or shortages.",
         "- During a supply chain disruption (variable), managers may need to operate within minimum inventory levels (parameter) to maintain production.",
-        "Effective managers distinguish between non-negotiable limits and adjustable elements to optimize performance."
+        "Effective managers distinguish between non-negotiable limits and adjustable elements to optimize performance.",
+        "[Theory] The interplay between parameters and variables is central to systems theory and cybernetics in management science.",
         "[Visual Suggestion: Venn diagram showing overlap of parameters and variables]"
     ]),
     ("Impact on Decision-Making", [
@@ -165,7 +194,8 @@ slides_content = [
         "Variables require vigilance and agility to make timely adjustments in response to changing conditions.",
         "Balanced management prevents over-reliance on rigid rules or unpredictable factors.",
         "Ignoring parameters can cause compliance failures or inefficiencies; ignoring variables can lead to missed opportunities and competitive loss.",
-        "Example: A company that ignores rising energy costs (variable) may exceed its budget limits (parameter), impacting profitability."
+        "Example: A company that ignores rising energy costs (variable) may exceed its budget limits (parameter), impacting profitability.",
+        "[Theory] Decision-making models such as SWOT and PESTLE analysis help managers evaluate both parameters and variables.",
         "[Visual Suggestion: Decision tree for parameter-variable management]"
     ]),
     ("Case Study – Automobile Manufacturing", [
@@ -183,7 +213,8 @@ slides_content = [
         "- Adjusting production volumes to match demand.",
         "- Diversifying suppliers to reduce risk.",
         "- Introducing flexible work shifts.",
-        "- Realigning marketing campaigns to target new trends."
+        "- Realigning marketing campaigns to target new trends.",
+        "[Theory] Case studies illustrate the practical application of parameter-variable management in real industries.",
         "[Visual Suggestion: Timeline of case study events]"
     ]),
     ("Best Practices", [
@@ -192,14 +223,16 @@ slides_content = [
         "Provide ongoing training for managers in adaptive decision-making and scenario planning.",
         "Conduct regular reviews of parameters to ensure they remain relevant and achievable.",
         "Develop contingency plans for high-impact variable changes, such as supply chain breakdowns or market crashes.",
-        "Foster a culture of continuous improvement and feedback."
+        "Foster a culture of continuous improvement and feedback.",
+        "[Theory] Total Quality Management (TQM) and Lean Manufacturing emphasize the importance of both parameters and variables.",
         "[Visual Suggestion: Checklist graphic for best practices]"
     ]),
     ("Conclusion", [
         "Industrial excellence is achieved by strategically blending fixed parameters with adaptive variables.",
         "Parameters ensure stability, compliance, and predictability; variables drive innovation, flexibility, and responsiveness.",
         "Organizations that master both can maintain operational balance and quickly adapt to new opportunities and threats.",
-        "Continuous learning and improvement are key to sustaining success in a dynamic industrial environment."
+        "Continuous learning and improvement are key to sustaining success in a dynamic industrial environment.",
+        "[Theory] The future of industrial management will increasingly rely on data-driven parameter and variable optimization.",
         "[Visual Suggestion: Trophy or success icon]"
     ]),
     ("References", [
@@ -209,7 +242,8 @@ slides_content = [
         "Industrial Engineering & Management Journals",
         "OSHA Safety Guidelines",
         "Industry 4.0 Case Studies and White Papers",
-        "Recent articles from Harvard Business Review and McKinsey on industrial adaptability"
+        "Recent articles from Harvard Business Review and McKinsey on industrial adaptability",
+        "Journals: Management Science, International Journal of Production Research"
     ])
 ]
 
@@ -222,7 +256,7 @@ for title, bullets in slides_content:
         add_bullet_slide(title, bullets)
 
 # Save file
-pptx_path_ultra_detailed = "Parameters_Variables_Industrial_Management_Ultra_Detailed_03.pptx"
+pptx_path_ultra_detailed = "Parameters_Variables_Industrial_Management_Ultra_Detailed_04.pptx"
 prs.save(pptx_path_ultra_detailed)
 
 pptx_path_ultra_detailed
